@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    overflow: auto;
+    
+    
+}
+
+body {
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+    background-color: black;
+}
+
+
+.background{
+    background:linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url(/photos/Background.jpg);
+    min-height: 95vh;
+    background-position: center;
+    background-size: cover;
+    background-color: l;
+}
+.mail{
+    background: transparent;
+    border-radius: 5px;
+    border: 2px solid gray;
+    width: 450px;
+    height: 47px;
+ 
+}
+input{
+    text-align: center;
+    color: white;
+
+}
+hr{
+    border: 2px solid;
+    color: rgb(249, 8, 8) ;
+    background: linear-gradient(rgb(244, 234, 234),rgb(21, 19, 19));
+}
+
+.carousel-item:hover img {
+    transform: scale(1.1); 
+    transition: transform 0.5s ease-in-out;
+    border: .5px solid;
+    border-radius: 10px;
+}
+.carousel-inner{
+    border: .2px solid;
+  
+    border-image: linear-gradient(45deg, #351515, #bb0f0f, #5e1703) 1;
+}
