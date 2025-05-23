@@ -22,7 +22,7 @@ body {
 .mail{
     background: transparent;
     border-radius: 5px;
-    border: 2px solid gray;
+    border: 3px solid gray;
     width: 450px;
     height: 47px;
  
@@ -41,7 +41,7 @@ hr{
 .carousel-item:hover img {
     transform: scale(1.1); 
     transition: transform 0.5s ease-in-out;
-    border: .5px solid;
+    border: .6px solid;
     
     border-radius: 10px;
 }
